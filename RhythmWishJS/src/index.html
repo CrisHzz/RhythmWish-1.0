@@ -1,11 +1,157 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rhythm Wish</title>
+    <link rel="stylesheet" href="assets/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   </head>
   <body>
-    <h1>Hola</h1>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <h1>Rhythm Wish</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#inicio">Inicia</a></li>
+            <li><a href="#quienes-somos">Quienes somos</a></li>
+            <li><a href="#contacto">Experiencia</a></li>
+          </ul>
+        </nav>
+        <div class="auth-buttons">
+            <a class="login-btn" href="pages/sign-in.html">Iniciar sesión</a>
+            <a class="register-btn" href="pages/sign-up.html">Registro</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h2>Bienvenido a Rhythm Wish</h2>
+          <p>Tu destino musical donde los ritmos se convierten en deseos</p>
+          <button class="cta-btn">Descubrir más</button>
+        </div>
+      </section>
+
+      <section id="inicio" class="features">
+        <div class="container">
+          <h2>Nuestros Servicios</h2>
+          <div class="feature-cards">
+            <div class="card">
+              <i class="fas fa-music"></i>
+              <h3>Música Personalizada</h3>
+              <p>Creamos ritmos únicos adaptados a tus necesidades</p>
+            </div>
+            <div class="card">
+              <i class="fas fa-headphones"></i>
+              <h3>Experiencia Inmersiva</h3>
+              <p>Sumérgete en una experiencia musical sin igual</p>
+            </div>
+            <div class="card">
+              <i class="fas fa-users"></i>
+              <h3>Comunidad</h3>
+              <p>Conecta con otros amantes de la música</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="quienes-somos" class="about">
+        <div class="container">
+          <h2>Quienes Somos</h2>
+          <p>Uniendo inteligencia artificial y música, queremos que esos amantes de la música que no son artistas, puedan crear las canciones de sus sueños sin tener experiencia en un software musical, solamente usando su creatividad y sus palabras. Con nuestra innovadora tecnología de música generativa, transformar una idea en una canción es ahora posible sin conocimientos técnicos ni instrumentos. Nuestro software utiliza inteligencia artificial avanzada para interpretar tus descripciones, emociones y referencias, generando automáticamente melodías, ritmos y arreglos que se adaptan a tu visión musical.</p>
+            
+          <p>Ya sea que quieras una canción para un proyecto personal, contenido digital o simplemente expresar tu creatividad, nuestra IA se encarga del proceso técnico para que tú solo te enfoques en crear. No necesitas ser productor ni pasar horas editando: simplemente escribe lo que imaginas y deja que la inteligencia artificial haga el resto. Descubre el futuro de la composición musical y empieza a crear hoy con la herramienta más avanzada de música generativa.</p>
+        </div>
+      </section>
+
+      <section id="contacto" class="contact">
+        <div class="container">
+          <h2>Experiencias</h2>
+          <p>Descubre lo que nuestros usuarios dicen sobre Rhythm Wish</p>
+        </div>
+      </section>
+
+      <section id="Experiencias" class="experiences">
+        <div class="container">
+          <h2>Experiencias</h2>          
+          <div class="experience-cards">
+            <div class="exp-card">
+                <div class="user-details">
+                  <h3>Persona 1</h3>
+                  <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <p class="testimonial">"Comentario 1"</p>
+              <span class="date">Fecha </span>
+            </div>
+            
+            <div class="exp-card">
+              <div class="user-info">
+                <div class="user-details">
+                  <h3>Persona 2</h3>
+                  <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                </div>
+              </div>
+              <p class="testimonial">"Comentario 2"</p>
+              <span class="date">Fecha</span>
+            </div>    
+            <div class="exp-card">
+              <div class="user-info">>
+                <div class="user-details">
+                  <h3>Persona 3</h3>
+                  <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <p class="testimonial">"Comentario 3"</p>
+              <span class="date">fecha </span>
+            </div>
+          </div>
+        </div>
+      </section>      
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h2>Rhythm Wish</h2>
+            <p>Crea el ritmo de tus deseos</p>   
+                 </div>
+          <div class="social-links">
+            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-spotify"></i></a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Rhythm Wish. Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
+
