@@ -3,25 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhythm Wish - Sign Up</title>
+    <link rel="stylesheet" href="../assets/auth.css">
     <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
-    <title>Rhythm sign-up</title>
 </head>
-<body>
-    <input type="text" id="email" placeholder="Email">
-    <input type="password" id="password" placeholder="Password">
-    <input type="password" id="confirmPassword" placeholder="Confirm Password">
-    <button id="registerBtn">Registrarse</button>
-    <div class="role-selection">
-        <h3>Que rol te dedicas?:</h3>
-        <div class="role-options">
-            <label>
-                <input type="radio" name="role" value="producer"> Productor musical
-            <label>
-                <input type="radio" name="role" value="artist"> Arista
-            </label>
-            <label>
-                <input type="radio" name="role" value="fan"> Entuciasta
-            </label>
+<body class="cursor">
+    <a href="javascript:history.back()" class="back-button">← Regresar</a>
+    
+    <div class="auth-container">
+        <div class="logo">
+            <h1>Rhythm Wish</h1>
+            <p>Crea el ritmo de tus deseos</p>
+        </div>
+        <div class="form-group">
+            <input type="text" id="email" placeholder="Email">
+            <input type="password" id="password" placeholder="Password">
+            <input type="password" id="confirmPassword" placeholder="Confirm Password">
+            <button id="registerBtn">Registrarse</button>
+            
+            <div class="role-selection">
+                <h3>¿Qué rol te dedicas?:</h3>
+                <div class="role-options">
+                    <label>
+                        <input type="radio" name="role" value="producer"> Productor musical
+                    </label>
+                    <label>
+                        <input type="radio" name="role" value="artist"> Artista
+                    </label>
+                    <label>
+                        <input type="radio" name="role" value="fan"> Entusiasta
+                    </label>
+                </div>
+            </div>
+            
+            <a href="sign-in.html" id="loginLink">¿Ya tienes una cuenta? Inicia sesión</a>
         </div>
     </div>
 </body>
