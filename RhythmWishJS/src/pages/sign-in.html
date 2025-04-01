@@ -1,25 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rhythm Wish - Sign In</title>
-    <link rel="stylesheet" href="../assets/auth.css">
-    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
-</head>
-<body class="cursor">
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rhythm Wish - Iniciar Sesión</title>
+    <link rel="stylesheet" href="../assets/auth.css" />
+    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon" />
+  </head>
+  <body class="cursor">
     <a href="javascript:history.back()" class="back-button">← Regresar</a>
+
     <div class="auth-container">
-        <div class="logo">
-            <h1>Rhythm Wish</h1>
-            <p>Crea el ritmo de tus deseos</p>
-        </div>
-        <div class="form-group">
-            <input type="text" id="email" placeholder="Email">
-            <input type="password" id="password" placeholder="Password">
-            <button id="loginBtn">Iniciar sesion</button>
-            <button id="registerBtn" onclick="window.location.href='sign-up.html'">Registrarse</button>
-        </div>
+      <div class="logo">
+        <h1>Rhythm Wish</h1>
+        <p>Crea el ritmo de tus deseos</p>
+      </div>
+      <div class="form-group">
+        <input type="text" id="email" placeholder="Email" />
+        <input type="password" id="password" placeholder="Password" />
+        <button id="loginBtn">Iniciar Sesión</button>
+
+        <a href="sign-up.html" id="registerLink"
+          >¿No tienes una cuenta? Regístrate</a
+        >
+      </div>
     </div>
-</body>
+
+    <script src="../scripts/auth.js"></script>
+  </body>
 </html>

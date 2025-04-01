@@ -119,6 +119,12 @@ body {
   font-size: 1.1rem;
 }
 
+.logout-button {
+  color: red !important;
+  border-radius: 30px;
+  border: 1px solid gray;
+}
+
 .sidebar-footer {
   margin-top: auto;
   border-top: 1px solid var(--bg-light);
