@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rhythm Wish - Dashboard</title>
+    <link rel="stylesheet" href="../assets/dashboard.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Sidebar/Vertical Header -->
+    <aside class="sidebar">
+      <div class="logo-container">
+        <h1 class="logo">Rhythm<span>Wish</span></h1>
+        <p class="beta-tag">BETA</p>
+      </div>
+
+      <nav class="nav-menu">
+        <a href="/pages/home.html" class="nav-item active">
+          <i class="fas fa-home"></i>
+          <span>Inicio</span>
+        </a>
+        <a href="/pages/library.html" class="nav-item">
+          <i class="fas fa-bookmark"></i>
+          <span>Biblioteca</span>
+        </a>
+        <a href="/pages/personalize.html" class="nav-item">
+          <i class="fas fa-sliders-h"></i>
+          <span>Personalizar</span>
+        </a>
+        <a href="/pages/vibes.html" class="nav-item">
+          <i class="fas fa-music"></i>
+          <span>Vibes</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <a href="/pages/login.html" class="nav-item">
+          <i class="fas fa-sign-in-alt"></i>
+          <span>Login</span>
+        </a>
+        <a href="/pages/docs.html" class="nav-item">
+          <i class="fas fa-file-alt"></i>
+          <span>Docs</span>
+        </a>
+        <a href="/pages/discord.html" class="nav-item">
+          <i class="fab fa-discord"></i>
+          <span>Discord</span>
+        </a>
+        <a href="/pages/learn-more.html" class="nav-item">
+          <i class="fas fa-graduation-cap"></i>
+          <span>Aprende más</span>
+        </a>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Search Bar / Create Music Section -->
+      <div class="search-create-container">
+        <div class="create-music-input">
+          <i class="fas fa-music"></i>
+          <input type="text" placeholder="Crea la música que imaginas..." />
+        </div>
+        <button class="generate-btn">Generar</button>
+        <div class="search-container">
+          <i class="fas fa-search"></i>
+          <input type="text" placeholder="Buscar" />
+        </div>
+      </div>
+
+      <!-- Featured Playlists Section -->
+      <section class="playlists-section">
+        <h2 class="section-title">Playlists destacadas</h2>
+
+        <div class="playlists-grid">
+          <!-- Playlist Card 1 -->
+          <div class="playlist-card">
+            <div class="playlist-image">
+              <img
+                src="/assets/dashboard/gold-melodies.jpg"
+                alt="Playlist cover"
+              />
+            </div>
+            <div class="playlist-info">
+              <h3>Melodies de Oro</h3>
+              <p>Ritmo420 · 15 canciones</p>
+            </div>
+          </div>
+
+          <!-- Playlist Card 2 -->
+          <div class="playlist-card">
+            <div class="playlist-image">
+              <img
+                src="/assets/dashboard/latin-vibes.jpg"
+                alt="Playlist cover"
+              />
+            </div>
+            <div class="playlist-info">
+              <h3>Vibra Latina</h3>
+              <p>JuanC · 11 canciones</p>
+            </div>
+          </div>
+
+          <!-- Playlist Card 3 -->
+          <div class="playlist-card">
+            <div class="playlist-image">
+              <img
+                src="/assets/dashboard/golden-beats.jpg"
+                alt="Playlist cover"
+              />
+            </div>
+            <div class="playlist-info">
+              <h3>Golden Beats</h3>
+              <p>MusicPro · 8 canciones</p>
+            </div>
+          </div>
+
+          <!-- Playlist Card 4 -->
+          <div class="playlist-card">
+            <div class="playlist-image">
+              <img
+                src="/assets/dashboard/magic-sounds.jpg"
+                alt="Playlist cover"
+              />
+            </div>
+            <div class="playlist-info">
+              <h3>Sonidos Mágicos</h3>
+              <p>MelodiaMaker · 14 canciones</p>
+            </div>
+          </div>
+
+          <!-- Playlist Card 5 -->
+          <div class="playlist-card">
+            <div class="playlist-image">
+              <img
+                src="/assets/dashboard/electric-dreams.jpg"
+                alt="Playlist cover"
+              />
+            </div>
+            <div class="playlist-info">
+              <h3>Electronic Dreams</h3>
+              <p>DJPulse · 12 canciones</p>
+            </div>
+          </div>
+
+          <!-- Playlist Card 6 -->
+          <div class="playlist-card">
+            <div class="playlist-image">
+              <img
+                src="/assets/dashboard/sunset-beats.jpg"
+                alt="Playlist cover"
+              />
+            </div>
+            <div class="playlist-info">
+              <h3>Sunset Vibes</h3>
+              <p>AmbientMaster · 7 canciones</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Staff Picks Section -->
+      <section class="staff-picks-section">
+        <div class="section-header">
+          <h2 class="section-title">Recomendados del equipo</h2>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+
+        <div class="tracks-list">
+          <!-- Track Item 1 -->
+          <div class="track-item">
+            <div class="track-number">01</div>
+            <div class="track-image">
+              <img
+                src="/assets/dashboard/songs/sunshine.jpg"
+                alt="Track cover"
+              />
+            </div>
+            <div class="track-info">
+              <h3>Rayos de Sol</h3>
+              <div class="track-tags">
+                <span class="artist">SunMaker</span>
+                <span class="tag">Alternative</span>
+                <span class="tag">Pop</span>
+                <span class="tag">Melodic</span>
+                <span class="tag">Happy</span>
+              </div>
+            </div>
+            <div class="track-stats">
+              <div class="plays">
+                <i class="fas fa-play"></i>
+                <span>7.9k</span>
+              </div>
+              <div class="likes">
+                <i class="fas fa-heart"></i>
+                <span>139</span>
+              </div>
+              <div class="duration">3:35</div>
+            </div>
+            <div class="track-actions">
+              <button class="like-btn"><i class="far fa-heart"></i></button>
+              <button class="options-btn">
+                <i class="fas fa-ellipsis-h"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Track Item 2 -->
+          <div class="track-item">
+            <div class="track-number">02</div>
+            <div class="track-image">
+              <img
+                src="/assets/dashboard/songs/amanecer.jpg"
+                alt="Track cover"
+              />
+            </div>
+            <div class="track-info">
+              <h3>Amanecer Rojo</h3>
+              <div class="track-tags">
+                <span class="artist">Lorna Shore</span>
+                <span class="tag">Lofi</span>
+                <span class="tag">Soul</span>
+                <span class="tag">Jazz</span>
+              </div>
+            </div>
+            <div class="track-stats">
+              <div class="plays">
+                <i class="fas fa-play"></i>
+                <span>11.2k</span>
+              </div>
+              <div class="likes">
+                <i class="fas fa-heart"></i>
+                <span>371</span>
+              </div>
+              <div class="duration">3:39</div>
+            </div>
+            <div class="track-actions">
+              <button class="like-btn"><i class="far fa-heart"></i></button>
+              <button class="options-btn">
+                <i class="fas fa-ellipsis-h"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Track Item 3 -->
+          <div class="track-item">
+            <div class="track-number">03</div>
+            <div class="track-image">
+              <img
+                src="/assets/dashboard/songs/alquimia.jpg"
+                alt="Track cover"
+              />
+            </div>
+            <div class="track-info">
+              <h3>Alquimia Sonora</h3>
+              <div class="track-tags">
+                <span class="artist">SoundAlchemist</span>
+                <span class="tag">Hip-hop</span>
+                <span class="tag">Instrumental</span>
+                <span class="tag">Mellow</span>
+              </div>
+            </div>
+            <div class="track-stats">
+              <div class="plays">
+                <i class="fas fa-play"></i>
+                <span>4.3k</span>
+              </div>
+              <div class="likes">
+                <i class="fas fa-heart"></i>
+                <span>132</span>
+              </div>
+              <div class="duration">3:30</div>
+            </div>
+            <div class="track-actions">
+              <button class="like-btn"><i class="far fa-heart"></i></button>
+              <button class="options-btn">
+                <i class="fas fa-ellipsis-h"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Track Item 4 -->
+          <div class="track-item">
+            <div class="track-number">04</div>
+            <div class="track-image">
+              <img
+                src="/assets/dashboard/songs/golden-rock.jpg"
+                alt="Track cover"
+              />
+            </div>
+            <div class="track-info">
+              <h3>Piedra de Oro</h3>
+              <div class="track-tags">
+                <span class="artist">GoldenRocks</span>
+                <span class="tag">Country</span>
+                <span class="tag">Acoustic</span>
+                <span class="tag">Guitar</span>
+              </div>
+            </div>
+            <div class="track-stats">
+              <div class="plays">
+                <i class="fas fa-play"></i>
+                <span>5.5k</span>
+              </div>
+              <div class="likes">
+                <i class="fas fa-heart"></i>
+                <span>214</span>
+              </div>
+              <div class="duration">3:23</div>
+            </div>
+            <div class="track-actions">
+              <button class="like-btn"><i class="far fa-heart"></i></button>
+              <button class="options-btn">
+                <i class="fas fa-ellipsis-h"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Track Item 5 -->
+          <div class="track-item">
+            <div class="track-number">05</div>
+            <div class="track-image">
+              <img
+                src="/assets/dashboard/songs/daftpunk.jpg"
+                alt="Track cover"
+              />
+            </div>
+            <div class="track-info">
+              <h3>Sueños de Sol</h3>
+              <div class="track-tags">
+                <span class="artist">SolarDreams</span>
+                <span class="tag">Vocal</span>
+                <span class="tag">Electronic</span>
+                <span class="tag">Ambient</span>
+              </div>
+            </div>
+            <div class="track-stats">
+              <div class="plays">
+                <i class="fas fa-play"></i>
+                <span>3.2k</span>
+              </div>
+              <div class="likes">
+                <i class="fas fa-heart"></i>
+                <span>124</span>
+              </div>
+              <div class="duration">3:17</div>
+            </div>
+            <div class="track-actions">
+              <button class="like-btn"><i class="far fa-heart"></i></button>
+              <button class="options-btn">
+                <i class="fas fa-ellipsis-h"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
