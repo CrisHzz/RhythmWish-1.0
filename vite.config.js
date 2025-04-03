@@ -14,6 +14,6 @@ export default defineConfig({
     server: {
         historyApiFallback: true,
         host: true,
-        allowedHosts: "all" 
+        allowedHosts: ['.localdomain', 'rw-latest.onrender.com'],
     }
 });
