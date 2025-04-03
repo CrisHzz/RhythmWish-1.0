@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
     root: 'src',
-    base: './', 
+    base: '/', 
     build: {
         outDir: '../dist',
         rollupOptions: {
@@ -12,6 +12,6 @@ export default defineConfig({
         }
     },
     server: {
-        historyApiFallback: true
+        historyApiFallback: true 
     }
 });
