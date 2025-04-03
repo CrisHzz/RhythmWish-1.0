@@ -1,11 +1,254 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lo más pegao - RhythmWish</title>
+    <link rel="stylesheet" href="../assets/charts.css">
+    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <h1>lo mas pegao</h1>
+    <aside class="vertical-header">
+        <div class="logo-container">
+            <div class="logo">
+                <h1>Rhythm<span>Wish</span></h1>
+                <p>BETA</p>
+            </div>
+        </div>
+        <nav class="nav-buttons">
+            <a href="/pages/dashboard.html" class="nav-button">
+              <i class="fas fa-home"></i>
+              <span>Inicio</span>
+            </a>
+            <a href="/pages/create-song.html" class="nav-button">
+              <i class="fa-solid fa-gear"></i> 
+              <span>Crear</span>
+            </a>
+            <a href="/pages/genres.html" class="nav-button">
+              <i class="fas fa-music"></i>
+              <span>Explorar</span>
+            </a>
+            <a href="/pages/charts.html" class="nav-button">
+              <i class="fas fa-chart-line"></i>
+              <span>Tendencias</span>
+            </a>
+            <a href="/pages/walkthrough.html" class="nav-button">
+              <i class="fas fa-book"></i>
+              <span>Tutoriales</span>
+            </a>
+            <a href="/pages/profile.html" class="nav-button">
+              <i class="fas fa-user"></i>
+              <span>Perfil</span>
+            </a>
+          </nav>
+          <div class="logout-container">
+            <a href="#" id="logout-button" class="logout-button">
+              <i class="fas fa-sign-out-alt"></i>
+              <span>Cerrar sesión</span>
+            </a>
+            
+          </div>
+    </aside>
+    
+    <main class="main-content">
+        <div class="welcome-section">
+            <h2>Lo más pegao</h2>
+            <p>Descubre los 10 géneros musicales más populares generados por los usuarios de RhythmWish esta semana.</p>
+        </div>
+        
+        <div class="trending-container">
+            <div class="trending-card top-card">
+                <div class="trending-rank">1</div>
+                <div class="trending-image">
+                    <div class="trending-overlay">
+                        <div class="trending-stats">
+                            <div class="stat"><i class="fas fa-fire"></i> 15.2K</div>
+                            <div class="stat"><i class="fas fa-heart"></i> 98%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending-content">
+                    <h3>Reggaeton</h3>
+                    <div class="trending-meta">
+                        <span class="trending-tag">Urbano</span>
+                        <span class="trending-tag">Latino</span>
+                    </div>
+                    <div class="trending-progress">
+                        <div class="progress-bar" style="width: 98%"></div>
+                    </div>
+                    <p>El género urbano latino sigue dominando las tendencias con sus ritmos pegadizos y letras directas.</p>
+                    <a href="#" class="trending-button">Generar ahora <i class="fas fa-bolt"></i></a>
+                </div>
+            </div>
+            
+            <div class="trending-list">
+                <div class="trending-item">
+                    <div class="trending-rank">2</div>
+                    <div class="trending-item-image">
+                    </div>
+                    <div class="trending-item-content">
+                        <h4>Trap</h4>
+                        <div class="trending-item-meta">
+                            <span class="trending-tag">Urbano</span>
+                            <span class="trending-tag">Hip Hop</span>
+                        </div>
+                        <div class="trending-item-stats">
+                            <span><i class="fas fa-fire"></i> 12.8K</span>
+                            <span><i class="fas fa-heart"></i> 95%</span>
+                        </div>
+                    </div>
+                    <a href="#" class="trending-item-button"><i class="fas fa-bolt"></i></a>
+                </div>
+                
+                <div class="trending-item">
+                    <div class="trending-rank">3</div>
+                    <div class="trending-item-image">
+                    </div>
+                    <div class="trending-item-content">
+                        <h4>Pop</h4>
+                        <div class="trending-item-meta">
+                            <span class="trending-tag">Mainstream</span>
+                            <span class="trending-tag">Comercial</span>
+                        </div>
+                        <div class="trending-item-stats">
+                            <span><i class="fas fa-fire"></i> 10.5K</span>
+                            <span><i class="fas fa-heart"></i> 92%</span>
+                        </div>
+                    </div>
+                    <a href="#" class="trending-item-button"><i class="fas fa-bolt"></i></a>
+                </div>
+                
+                <div class="trending-item">
+                    <div class="trending-rank">4</div>
+                    <div class="trending-item-image">
+                    </div>
+                    <div class="trending-item-content">
+                        <h4>EDM</h4>
+                        <div class="trending-item-meta">
+                            <span class="trending-tag">Electrónica</span>
+                            <span class="trending-tag">Dance</span>
+                        </div>
+                        <div class="trending-item-stats">
+                            <span><i class="fas fa-fire"></i> 9.7K</span>
+                            <span><i class="fas fa-heart"></i> 90%</span>
+                        </div>
+                    </div>
+                    <a href="#" class="trending-item-button"><i class="fas fa-bolt"></i></a>
+                </div>
+                
+                <div class="trending-item">
+                    <div class="trending-rank">5</div>
+                    <div class="trending-item-image">
+                    </div>
+                    <div class="trending-item-content">
+                        <h4>Hip Hop</h4>
+                        <div class="trending-item-meta">
+                            <span class="trending-tag">Urbano</span>
+                            <span class="trending-tag">Rap</span>
+                        </div>
+                        <div class="trending-item-stats">
+                            <span><i class="fas fa-fire"></i> 8.3K</span>
+                            <span><i class="fas fa-heart"></i> 88%</span>
+                        </div>
+                    </div>
+                    <a href="#" class="trending-item-button"><i class="fas fa-bolt"></i></a>
+                </div>
+                
+                <div class="trending-item">
+                    <div class="trending-rank">6</div>
+                    <div class="trending-item-image">
+                    </div>
+                    <div class="trending-item-content">
+                        <h4>R&B</h4>
+                        <div class="trending-item-meta">
+                            <span class="trending-tag">Soul</span>
+                            <span class="trending-tag">Urbano</span>
+                        </div>
+                        <div class="trending-item-stats">
+                            <span><i class="fas fa-fire"></i> 7.1K</span>
+                            <span><i class="fas fa-heart"></i> 86%</span>
+                        </div>
+                    </div>
+                    <a href="#" class="trending-item-button"><i class="fas fa-bolt"></i></a>
+                </div>
+                
+                <div class="trending-item">
+                    <div class="trending-rank">7</div>
+                    <div class="trending-item-image">
+                    </div>
+                    <div class="trending-item-content">
+                        <h4>Rock Alternativo</h4>
+                        <div class="trending-item-meta">
+                            <span class="trending-tag">Rock</span>
+                            <span class="trending-tag">Indie</span>
+                        </div>
+                        <div class="trending-item-stats">
+                            <span><i class="fas fa-fire"></i> 6.5K</span>
+                            <span><i class="fas fa-heart"></i> 84%</span>
+                        </div>
+                    </div>
+                    <a href="#" class="trending-item-button"><i class="fas fa-bolt"></i></a>
+                </div>
+                
+                <div class="trending-item">
+                    <div class="trending-rank">8</div>
+                    <div class="trending-item-image">
+                    </div>
+                    <div class="trending-item-content">
+                        <h4>House</h4>
+                        <div class="trending-item-meta">
+                            <span class="trending-tag">Electrónica</span>
+                            <span class="trending-tag">Club</span>
+                        </div>
+                        <div class="trending-item-stats">
+                            <span><i class="fas fa-fire"></i> 5.9K</span>
+                            <span><i class="fas fa-heart"></i> 82%</span>
+                        </div>
+                    </div>
+                    <a href="#" class="trending-item-button"><i class="fas fa-bolt"></i></a>
+                </div>
+                
+                <div class="trending-item">
+                    <div class="trending-rank">9</div>
+                    <div class="trending-item-image">
+                    </div>
+                    <div class="trending-item-content">
+                        <h4>Indie Pop</h4>
+                        <div class="trending-item-meta">
+                            <span class="trending-tag">Alternativo</span>
+                            <span class="trending-tag">Pop</span>
+                        </div>
+                        <div class="trending-item-stats">
+                            <span><i class="fas fa-fire"></i> 5.2K</span>
+                            <span><i class="fas fa-heart"></i> 80%</span>
+                        </div>
+                    </div>
+                    <a href="#" class="trending-item-button"><i class="fas fa-bolt"></i></a>
+                </div>
+                
+                <div class="trending-item">
+                    <div class="trending-rank">10</div>
+                    <div class="trending-item-image">
+                    </div>
+                    <div class="trending-item-content">
+                        <h4>Lo-Fi</h4>
+                        <div class="trending-item-meta">
+                            <span class="trending-tag">Chill</span>
+                            <span class="trending-tag">Instrumental</span>
+                        </div>
+                        <div class="trending-item-stats">
+                            <span><i class="fas fa-fire"></i> 4.8K</span>
+                            <span><i class="fas fa-heart"></i> 79%</span>
+                        </div>
+                    </div>
+                    <a href="#" class="trending-item-button"><i class="fas fa-bolt"></i></a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="../scripts/auth.js"></script>
+    <script src="../scripts/dashboard.js"></script>
 </body>
 </html>
+

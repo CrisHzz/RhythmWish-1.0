@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil del Usuario</title>
-    <link rel="stylesheet" href="../assets/profile.css">
-    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
+    <title>Crear Canción - RhythmWish</title>
+    <link rel="stylesheet" href="../assets/create.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel='icon' href='assets/favicon.ico' type='image/x-icon'/>
 </head>
 <body>
     <aside class="vertical-header">
@@ -42,7 +42,6 @@
               <span>Perfil</span>
             </a>
           </nav>
-
           <div class="logout-container">
             <a href="#" id="logout-button" class="logout-button">
               <i class="fas fa-sign-out-alt"></i>
@@ -50,16 +49,22 @@
             </a>
             
           </div>
-
     </aside>
+    
     <main class="main-content">
-        <div class="profile-container">
-            <h1 class="profile-name">Volodo torres</h1>
-            <p class="profile-bio">Desarrollador web apasionado por la tecnología y el diseño.</p>
-            <div class="profile-buttons">
-                <button class="profile-button">Editar Perfil</button>
-                <button class="profile-button">Configuración</button>
-                <button class="profile-button">Ver Amigos</button>
+        <div class="create-container">
+            <div class="create-header">
+                <h2>Crea tu canción</h2>
+                <p>Describe cómo quieres que sea tu canción y nuestro sistema la generará para ti.</p>
+            </div>
+            
+            <div class="prompt-container">
+                <textarea id="song-prompt" placeholder="Describe tu canción... Por ejemplo: 'Una canción de reggaeton con letras sobre el verano, con un ritmo bailable y un coro pegadizo'"></textarea>
+                
+                <button id="generate-button" class="generate-button">
+                    <i class="fas fa-bolt"></i>
+                    <span>Generar canción</span>
+                </button>
             </div>
         </div>
     </main>
@@ -67,3 +72,4 @@
     <script src="../scripts/dashboard.js"></script>
 </body>
 </html>
+

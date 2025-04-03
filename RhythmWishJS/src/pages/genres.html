@@ -1,12 +1,154 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=`, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Géneros Musicales - RhythmWish</title>
+    <link rel="stylesheet" href="../assets/genres.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <h1>Aqui aprenderas de generos</h1>
+    <aside class="vertical-header">
+        <div class="logo-container">
+            <div class="logo">
+                <h1>Rhythm<span>Wish</span></h1>
+                <p>BETA</p>
+            </div>
+        </div>
+        <nav class="nav-buttons">
+            <a href="/pages/dashboard.html" class="nav-button">
+              <i class="fas fa-home"></i>
+              <span>Inicio</span>
+            </a>
+            <a href="/pages/create-song.html" class="nav-button">
+              <i class="fa-solid fa-gear"></i> 
+              <span>Crear</span>
+            </a>
+            <a href="/pages/genres.html" class="nav-button">
+              <i class="fas fa-music"></i>
+              <span>Explorar</span>
+            </a>
+            <a href="/pages/charts.html" class="nav-button">
+              <i class="fas fa-chart-line"></i>
+              <span>Tendencias</span>
+            </a>
+            <a href="/pages/walkthrough.html" class="nav-button">
+              <i class="fas fa-book"></i>
+              <span>Tutoriales</span>
+            </a>
+            <a href="/pages/profile.html" class="nav-button">
+              <i class="fas fa-user"></i>
+              <span>Perfil</span>
+            </a>
+          </nav>
+          <div class="logout-container">
+            <a href="#" id="logout-button" class="logout-button">
+              <i class="fas fa-sign-out-alt"></i>
+              <span>Cerrar sesión</span>
+            </a>
+            
+          </div>
+    </aside>
     
+    <main class="main-content">
+        <div class="welcome-section">
+            <h2>Aquí aprenderás de géneros</h2>
+            <p>Explora los diferentes géneros musicales y descubre nuevos sonidos que ampliarán tu horizonte musical.</p>
+        </div>
+        
+        <div class="genres-grid">
+            <div class="genre-card">
+                <div class="genre-image">
+                    <div class="genre-overlay">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <h3>Rock</h3>
+                <p>Género caracterizado por una melodía vocal fuerte, acompañada por guitarras eléctricas, bajo y batería.</p>
+            </div>
+            
+            <div class="genre-card">
+                <div class="genre-image">
+                    <div class="genre-overlay">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <h3>Pop</h3>
+                <p>Música popular contemporánea con melodías pegadizas y estructuras simples diseñadas para atraer a una amplia audiencia.</p>
+            </div>
+            
+            <div class="genre-card">
+                <div class="genre-image">
+                    <div class="genre-overlay">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <h3>Hip Hop</h3>
+                <p>Estilo musical que combina elementos rítmicos con rimas y discursos hablados sobre pistas instrumentales.</p>
+            </div>
+            
+            <div class="genre-card">
+                <div class="genre-image">
+                    <div class="genre-overlay">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <h3>Electrónica</h3>
+                <p>Música creada con instrumentos electrónicos y tecnología de producción musical digital.</p>
+            </div>
+            
+            <div class="genre-card">
+                <div class="genre-image">
+                    <div class="genre-overlay">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <h3>Jazz</h3>
+                <p>Género musical caracterizado por la improvisación, el swing y las armonías complejas.</p>
+            </div>
+            
+            <div class="genre-card">
+                <div class="genre-image">
+                    <div class="genre-overlay">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <h3>Reggaeton</h3>
+                <p>Estilo musical urbano que fusiona el reggae jamaicano con el hip hop latino y ritmos caribeños.</p>
+            </div>
+            
+            <div class="genre-card">
+                <div class="genre-image">
+                    <div class="genre-overlay">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <h3>R&B</h3>
+                <p>Rhythm and Blues, combina elementos de jazz, gospel y blues con un enfoque en voces potentes y ritmos bailables.</p>
+            </div>
+            
+            <div class="genre-card">
+                <div class="genre-image">
+                    <div class="genre-overlay">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <h3>Clásica</h3>
+                <p>Música académica occidental con tradiciones formales que abarcan desde el período medieval hasta la actualidad.</p>
+            </div>
+            
+            <div class="genre-card">
+                <div class="genre-image">
+                    <div class="genre-overlay">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <h3>Metal</h3>
+                <p>Subgénero del rock caracterizado por guitarras distorsionadas, ritmos enfáticos y, a menudo, tempos rápidos.</p>
+            </div>
+        </div>
+    </main>
+    <script src="../scripts/auth.js"></script>
+    <script src="../scripts/dashboard.js"></script>
 </body>
 </html>
